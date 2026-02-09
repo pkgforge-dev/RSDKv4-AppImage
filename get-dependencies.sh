@@ -10,7 +10,6 @@ pacman -Syu --noconfirm \
     cmake    \
     glew     \
     libdecor \
-    libglvnd \
     sdl2
 
 echo "Installing debloated packages..."
