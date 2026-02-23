@@ -3,14 +3,14 @@
 case "$1" in
     --s1)
         dir=${XDG_DATA_HOME:-~/.local/share}/sonic1
-        shift # Remove --s1 from arguments so AppImage doesn't see it
+        shift # Remove --s1 from arguments
         ;;
     --s2)
         dir=${XDG_DATA_HOME:-~/.local/share}/sonic2
         shift # Remove --s2 from arguments
         ;;
     *)
-        # Default: No flag or unknown flag, use the base folder
+        # Default: No flag, use the base folder
         dir=${XDG_DATA_HOME:-~/.local/share}/rsdkv4
         ;;
 esac
