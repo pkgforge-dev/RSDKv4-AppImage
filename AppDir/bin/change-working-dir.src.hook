@@ -2,16 +2,16 @@
 
 case "$1" in
     --s1)
-        dir=${XDG_DATA_HOME:-~/.local/share}/sonic1
+        dir=$DATADIR/sonic1
         shift # Remove --s1 from arguments
         ;;
     --s2)
-        dir=${XDG_DATA_HOME:-~/.local/share}/sonic2
+        dir=$DATADIR/sonic2
         shift # Remove --s2 from arguments
         ;;
     *)
         # Default: No flag, use the base folder
-        dir=${XDG_DATA_HOME:-~/.local/share}/rsdkv4
+        dir=$DATADIR/rsdkv4
         ;;
 esac
 mkdir -p "$dir"
