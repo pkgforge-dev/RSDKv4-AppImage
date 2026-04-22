@@ -18,13 +18,13 @@
 </div>
 
 ### ⚠️ Place `Data.rsdk` in corresponding directory ⚠️
-⚠️                                                ⚠️
+⚠️                                                  ⚠️
 ```
 Sonic 1 `~/.local/share/sonic1` use --s1 flag
 Sonic 2 `~/.local/share/sonic2` use --s2 flag
 Default: `~/.local/share/rsdkv4` no flag needed
 ```
-⚠️                                                ⚠️
+⚠️                                                  ⚠️
 
 ---
 
