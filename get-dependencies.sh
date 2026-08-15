@@ -17,7 +17,7 @@ echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
-#make-aur-package rsdkv4-git
+#make-aur-package PACKAGENAME
 
 # If the application needs to be manually built that has to be done down here
 echo "Making nightly build of RSDKv4 Decompilation..."
