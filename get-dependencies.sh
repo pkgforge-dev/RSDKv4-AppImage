@@ -8,7 +8,6 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     cmake    \
-    db \
     glew     \
     libdecor \
     sdl2
