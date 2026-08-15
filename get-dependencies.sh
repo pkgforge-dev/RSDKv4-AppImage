@@ -10,8 +10,7 @@ pacman -Syu --noconfirm \
     cmake    \
     glew     \
     libdecor \
-    sdl2     \
-    tinyxml2
+    sdl2
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
@@ -30,6 +29,6 @@ echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 cd ./RSDKv4
-cmake -S ./ -B build -D CMAKE_BUILD_TYPE=Release -D USE_SDL_AUDIO=ON
+cmake -S ./ -B build -D CMAKE_BUILD_TYPE=Release
 cmake --build build -j$(nproc)
 mv -v ./build/RSDKv4 ../AppDir/bin
