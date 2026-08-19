@@ -16,7 +16,7 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-echo "Making nightly build of RSDKv4 Decompilation..."
+echo "Building RSDKv4 Decompilation..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/RSDKModding/RSDKv4-Decompilation"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
