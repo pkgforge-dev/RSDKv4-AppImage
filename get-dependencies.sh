@@ -9,12 +9,11 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     cmake    \
     glew     \
-    libdecor \
     sdl2
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano libdecor-mini
 
 echo "Building RSDKv4 Decompilation..."
 echo "---------------------------------------------------------------"
