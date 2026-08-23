@@ -7,8 +7,8 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    cmake    \
-    glew     \
+    cmake \
+    glew  \
     sdl2
 
 echo "Installing debloated packages..."
