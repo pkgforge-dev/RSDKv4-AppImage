@@ -24,6 +24,6 @@ echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 cd ./RSDKv4
-cmake -S ./ -B build -D CMAKE_BUILD_TYPE=Release
+cmake ./ -B build -D CMAKE_BUILD_TYPE=Release
 cmake --build build -j$(nproc)
 mv -v ./build/RSDKv4 ../AppDir/bin
